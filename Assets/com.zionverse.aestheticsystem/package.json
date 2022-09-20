@@ -1,0 +1,19 @@
+{
+  "name": "com.zionverse.aestheticsystem",
+  "version": "1.0.0",
+  "displayName": "AestheticSystem",
+  "unity": "2021.3",
+  "keywords": [
+    "aesthetics",
+    "module",
+    "addressables"
+  ],
+  "author": {
+    "name": "Mariappan",
+    "email": "mariappan@totalitycorp.com"
+  },
+  "description": "This is a aesthetic sytem to store all the addressable assets of your game for easy assets management.",
+  "dependencies": {
+    "com.unity.addressables": "1.19.19"
+  }
+}
