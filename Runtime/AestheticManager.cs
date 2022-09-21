@@ -42,7 +42,6 @@ namespace Zionverse.AestheticsSystem
 
         private async void CheckForDownload()
         {
-            Addressables.ClearDependencyCacheAsync("default");
             currentAddressableFileDownloadSize = Addressables.GetDownloadSizeAsync(addressablePath);
             while(!currentAddressableFileDownloadSize.IsDone)
                 await Task.Yield();
